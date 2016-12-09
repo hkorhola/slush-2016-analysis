@@ -61,9 +61,9 @@ The actual word analysis is following the same guidelines as above. You can chec
 
 ## Results
 The word cloud is shown below. Remarks:
-* From companies, the winner of the pitching competition, [Cybelangel](https://www.cybelangel.com) is deservedly getting attention. That's good and the security topic will be hot during the next years. 
+* From companies, the winner of the pitching competition, [Cybelangel](http://www.cybelangel.com) is deservedly getting attention. That's good and the security topic will be hot during the next years. 
 * Maybe slightly surprising the next companies popping up from the words are Finnair and Nokia. Where are the small companies, we only get these big ones? From the startups I only manage to spot the pitching winner, Cybelangel. It surprises me.
-* Investment company [Atomico](https://www.atomico.com) is in the discussions. They are big, active company and they just published a nice report about the state of tech in Europe - definitely worth reading. 
+* Investment company [Atomico](http://www.atomico.com) is in the discussions. They are big, active company and they just published a nice report about the state of tech in Europe - definitely worth reading. 
 * From people, Peter Vesterbacka stands out. And as we see from the company descriptions -analysis, education is well highlighted there, so I predict prosperous future for Peter and his industry colleagues in the expanding market. 
 * Another person who is represented here in these top words is [Joel Willans](https://twitter.com/joelwillans?lang=fi), an author and editor. It seems he has been extremely active in Twitter and caught attention.
 * Helsinki is well represented in the cloud, and visibility for Finland is always a nice thing.
