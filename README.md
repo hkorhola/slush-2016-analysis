@@ -1,5 +1,5 @@
 # slush-2016-analysis
-Text analysis of the startup companies participating in Slush.
+Text analysis of the startup companies participating in Slush accompanied with a Twitter analysis of Slush related tweets.
 
 ## Source data
 Source data is taken from Slush home page, on which the startup companies' descriptions are.
@@ -55,17 +55,18 @@ wordcloud(descs, max.words=60, scale=c(3,1),
 
 
 ## Part 2, Twitter analysis for Slush '16
-As next step a Twitter analysis is made by searching Twitter API for the latest 5000 tweets with keyword #slush16. It is interesting to compare the company descriptions to what people are talking about.
+As next step a Twitter analysis is made by searching Twitter API for the latest 5000 tweets with the keyword #slush16. It is interesting to compare the company descriptions to what people are talking about.
 
-The actual word analysis is following the same guidelines as above in company descriptions. You can check the source code in the repository, if interested.
+The actual word analysis is following the same guidelines as above. You can check the source code in the repository, if interested.
 
 ## Results
 The word cloud is shown below. Remarks:
-* Helsinki is well represented, so popularity factor is at a good level!
+* Helsinki is well represented in the cloud, so visibility for Finland is always a nice thing.
 * From companies, the winner of the pitching competition, [Cybelangel](https://www.cybelangel.com) is deserved to get attention. That's good. 
 * Maybe slightly surprising the next companies popping up from the words are Finnair and Nokia. Where are the small companies, we only get these big ones? From the startups I only manage to spot the pitching winner, Cybelangel. It surprises me.
-* Investment company [Atomico](https://www.atomico.com) 
-* From people, Peter Vesterbacka stands out. And as we see from the company descriptions -analysis, education is well highlighted there, so I predict prosperous future for Peter and his industry colleagues in the expanding market. Another person who is represented here in top words is [Joel Willans]https://twitter.com/joelwillans?lang=fi, an author and editor.
+* Investment company [Atomico](https://www.atomico.com) is in the discussions. They are big, active company and they just published a nice report about the state of tech in Europe - definitely worth reading. 
+* From people, Peter Vesterbacka stands out. And as we see from the company descriptions -analysis, education is well highlighted there, so I predict prosperous future for Peter and his industry colleagues in the expanding market. 
+* Another person who is represented here in these top words is [Joel Willans](https://twitter.com/joelwillans?lang=fi), an author and editor. It seems he has been extremely active in Twitter and caught attention.
 
 
 ![Alt text](/twitter_wordcloud.png?raw=true "Word cloud Slush 2016 from Twitter data")
