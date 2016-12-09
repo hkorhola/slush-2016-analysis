@@ -7,7 +7,7 @@ Source data is taken from Slush home page, on which the startup companies' descr
 ## Processing
 Processing and some cleansing is executed with a R script
 
-```
+```R
 #remove whitespace
 tweets <- tm_map(tweets, stripWhitespace)
 
@@ -25,13 +25,7 @@ tweets <- tm_map(tweets, removeNumbers)
 
 #remove punctuation
 tweets <- tm_map(tweets, removePunctuation)
-´´´ 
+```
 
 ## Word cloud
 Actual word cloud is plotted with another R function
-
-``` 
-wordcloud(tweets, max.words=60, scale=c(3,1), 
-          random.order=FALSE, random.color=TRUE, rot.per=0.0, 
-            use.r.layout=FALSE, colors=brewer.pal(5, "Set1"), fixed.asp=FALSE)
-´´´
