@@ -44,7 +44,7 @@ wordcloud(descs, max.words=60, scale=c(3,1),
 
 ### Remarks
 * Most common words 'mobile', 'data', 'analytics' are of course no big surprises. Mobile will continue increasing as a channel.
-+ IoT is quite small, probably due to the hype and overuse of the term, making people want to avoid it as its own
++ IoT is rather small, probably due to the hype and overuse of the term, making people want to avoid it as its own
 - 'Health' and 'wellbeing' have risen up in the third category and are slightly bigger than 'gaming', which has been in the headlines for the past 5 years
 * 'Virtual' is not dominating the cloud, contrary to what one could have imagined this year
 * 'Education' is going up from the past years
@@ -52,3 +52,22 @@ wordcloud(descs, max.words=60, scale=c(3,1),
 
 
 ![Alt text](/slush_wordcloud.png?raw=true "Word cloud Slush 2016")
+
+
+## Part 2, Twitter analysis for Slush '16
+As next step a Twitter analysis is made by searching Twitter API for the latest 5000 tweets with keyword #slush16. It is interesting to compare the company descriptions to what people are talking about.
+
+The actual word analysis is following the same guidelines as above in company descriptions. You can check the source code in the repository, if interested.
+
+## Results
+The word cloud is shown below. Remarks:
+* Helsinki is well represented, so popularity factor is at a good level!
+* From companies, the winner of the pitching competition, [Cybelangel](https://www.cybelangel.com) is deserved to get attention. That's good. 
+* Maybe slightly surprising the next companies popping up from the words are Finnair and Nokia. Where are the small companies, we only get these big ones? From the startups I only manage to spot the pitching winner, Cybelangel. It surprises me.
+* Investment company [Atomico](https://www.atomico.com) 
+* From people, Peter Vesterbacka stands out. And as we see from the company descriptions -analysis, education is well highlighted there, so I predict prosperous future for Peter and his industry colleagues in the expanding market. Another person who is represented here in top words is [Joel Willans]https://twitter.com/joelwillans?lang=fi, an author and editor.
+
+
+![Alt text](/twitter_wordcloud.png?raw=true "Word cloud Slush 2016 from Twitter data")
+
+
