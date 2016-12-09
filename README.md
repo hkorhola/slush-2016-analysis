@@ -8,7 +8,7 @@ Source data is taken from Slush home page, on which the startup companies' descr
 doc.html = htmlTreeParse('http://www.slush.org/why-attend/startups/',useInternal = TRUE)
 rule <- "//div[@class='block startups-listing']//text()"
 companydescriptions <- xpathSApply(doc.html, rule, xmlValue)
-tweets <- VCorpus(VectorSource(companydescriptions))
+descs <- VCorpus(VectorSource(companydescriptions))
 ```
 
 ## Processing
@@ -16,22 +16,22 @@ Processing and some cleansing is executed with an R script
 
 ```R
 #remove whitespace
-tweets <- tm_map(tweets, stripWhitespace)
+descs <- tm_map(descs, stripWhitespace)
 
 #to lower case
-tweets <- tm_map(tweets, content_transformer(tolower))
+descs <- tm_map(descs, content_transformer(tolower))
 
 #remove stopwords (a, the, an...)
-tweets <- tm_map(tweets, removeWords, stopwords("english"))
+descs <- tm_map(descs, removeWords, stopwords("english"))
 
 #remove manually some irrelevant words
-tweets <- tm_map(tweets, removeWords, c("ltd", "inc"))
+descs <- tm_map(descs, removeWords, c("ltd", "inc"))
 
 #remove numbers
-tweets <- tm_map(tweets, removeNumbers)
+descs <- tm_map(descs, removeNumbers)
 
 #remove punctuation
-tweets <- tm_map(tweets, removePunctuation)
+descs <- tm_map(descs, removePunctuation)
 ```
 
 ## Word cloud
