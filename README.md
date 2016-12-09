@@ -12,7 +12,7 @@ tweets <- VCorpus(VectorSource(companydescriptions))
 ```
 
 ## Processing
-Processing and some cleansing is executed with a R script
+Processing and some cleansing is executed with an R script
 
 ```R
 #remove whitespace
