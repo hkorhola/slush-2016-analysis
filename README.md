@@ -4,6 +4,13 @@ Textual analysis of the startup companies participating in Slush.
 ## Source data
 Source data is taken from Slush home page, on which the startup companies' descriptions are.
 
+```R
+doc.html = htmlTreeParse('http://www.slush.org/why-attend/startups/',useInternal = TRUE)
+rule <- "//div[@class='block startups-listing']//text()"
+companydescriptions <- xpathSApply(doc.html, rule, xmlValue)
+tweets <- VCorpus(VectorSource(companydescriptions))
+```
+
 ## Processing
 Processing and some cleansing is executed with a R script
 
@@ -28,4 +35,9 @@ tweets <- tm_map(tweets, removePunctuation)
 ```
 
 ## Word cloud
-Actual word cloud is plotted with another R function
+Actual word cloud is plotted with another R function. Max 60 words are plotted to keep the readability good.
+```R
+wordcloud(tweets, max.words=60, scale=c(3,1), 
+          random.order=FALSE, random.color=TRUE, rot.per=0.0, 
+            use.r.layout=FALSE, colors=brewer.pal(5, "Set1"), fixed.asp=FALSE)
+```
