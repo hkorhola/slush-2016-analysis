@@ -44,11 +44,11 @@ wordcloud(tweets, max.words=60, scale=c(3,1),
 
 ### Remarks
 * Most common words 'mobile', 'data', 'analytics' are of course no big surprises. Mobile will continue increasing as a channel.
-+ IoT is quite small, probably depending on the overuse of the term and people wanting to avoid it as its own
++ IoT is quite small, probably due to the hype and overuse of the term, making people want to avoid it as its own
 - 'Health' and 'wellbeing' have risen up in the third category and are slightly bigger than 'gaming', which has been in the headlines for the past 5 years
-* 'Virtual' is not dominating the cloud, contrary to what someone could have imagined this year
+* 'Virtual' is not dominating the cloud, contrary to what one could have imagined this year
 * 'Education' is going up from the past years
-* One interesting topic is security, which is quite small in this cloud. Still, the winner of the pitching competition represented security category with their scanning solutions
+* Security is surprisingly small in this cloud. Still, the winner of the pitching competition represented security category with their advanced scanning solutions.
 
 
 ![Alt text](/slush_wordcloud.png?raw=true "Word cloud Slush 2016")
