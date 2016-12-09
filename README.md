@@ -1,5 +1,5 @@
 # slush-2016-analysis
-Textual analysis of the startup companies participating in Slush.
+Text analysis of the startup companies participating in Slush.
 
 ## Source data
 Source data is taken from Slush home page, on which the startup companies' descriptions are.
