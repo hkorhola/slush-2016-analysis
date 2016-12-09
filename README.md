@@ -41,3 +41,5 @@ wordcloud(tweets, max.words=60, scale=c(3,1),
           random.order=FALSE, random.color=TRUE, rot.per=0.0, 
             use.r.layout=FALSE, colors=brewer.pal(5, "Set1"), fixed.asp=FALSE)
 ```
+
+![Alt text](/slush_wordcloud.png?raw=true "Word cloud Slush 2016")
